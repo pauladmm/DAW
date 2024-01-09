@@ -4,7 +4,11 @@ By subjects:
 
 ## Mark-up Language
 * **ML_ex1_html**
-First exercise. Create a web page with plain HTML. Uses with basic syntax, forms an tables
+First exam. Create a web page with plain HTML. Uses with basic syntax, forms an tables
+* **pdmm_html**
+Html from second exam. This was inspired by [McLibre](https://www.mclibre.org/consultar/htmlcss/examenes/examenes.html).
+* **pdmm_style**
+Stylesheet for pdmm_html
 
 ## Programming
 * **Exam1**
