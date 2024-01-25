@@ -13,10 +13,6 @@ def is_letter(anychar):
     anychar: (str) any character.
     Output: (bool) True if it anychar is a letter or False if anychar is not a letter.
     '''
-# utilizando la funcion ord() se puede ver si el carácter se encuentra entre el rango ord(a) y ord(z)
-# no hace falta invocarla directamente porque con los operadores < y > basta
-# se generan constantes para los valores fijos   
-    
     is_lower_letter = anychar >= LOWERCASE_FIRST and anychar <= LOWECASE_LAST
     is_upper_letter = anychar >= UPPERCASE_FIRST and anychar <= UPPERCASE_LAST
     
@@ -41,7 +37,6 @@ def encode_line(anyline):
     '''
     encoded_line = ''
     for char in anyline:
-        # se añade cada caracter a una cadena que representa la linea codificada
         encoded_line += encode_char(char)
     return encoded_line
 
@@ -53,8 +48,7 @@ def rot13(textfile, destinyfile):
     '''
     with open(textfile) as originalfile, open(destinyfile, 'w') as newfile:
         for line in originalfile:
-            # es mejor leer linea a linea y escribir linea a linea en el otro archivo
-            # se crean diversas funciones para cada paso
+           
             newline = encode_line(line)
             newfile.write(newline)
 
