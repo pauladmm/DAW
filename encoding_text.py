@@ -26,6 +26,7 @@ def encode_char(char):
     Output: (str) the given character encoded.
     '''
     value = (ord(char) + ADDITION_VALUE) % MODULE_VALUE
+    value =+ LOWERCASE_FIRST if char >= LOWECASE_LAST else UPPERCASE_FIRST
     encoded_char = chr(value)
     return encoded_char
 
