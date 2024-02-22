@@ -28,8 +28,7 @@ The functionality of this programm is make a little database for academic data. 
 -a : calculate the average of the grades for the whole class
 -o : show students with above average grades
 
-The location of the data file is stored in the first line of a configuration file with the following format:
-file = <binaryfilename>
+The location of the data file is stored in the first line of a configuration file with the following format: file = < binary filename >
 * **pdmm_library**
 Is the library where the most of the functions used are stored. It also includes a few custom errors to improve the functionality.
 
