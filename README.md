@@ -20,13 +20,13 @@ A procedure called add_once was created. The procedure will add an element at th
 * **encoding_text.py**
 A little program that encodes a given file to another. Functions and methods for files were used.
 * **pdmm_unit8**
-The functionality of this programm is make a little database for academic data. Through the command line you can do the following:
--r <textfilename> : load text file, add data into binary file (replacing a existing student when there is a match)
--s <studentname> : show single student data
--m : show list of students with their grades from high to low
--p <mark>: calculate the number of students above the given threshold grade
--a : calculate the average of the grades for the whole class
--o : show students with above average grades
+The functionality of this programm is make a little database for academic data. Through the command line you can do the following:<br>
+-r <textfilename> : load text file, add data into binary file (replacing a existing student when there is a match)<br>
+-s <studentname> : show single student data<br>
+-m : show list of students with their grades from high to low<br>
+-p <mark>: calculate the number of students above the given threshold grade<br>
+-a : calculate the average of the grades for the whole class<br>
+-o : show students with above average grades<br>
 
 The location of the data file is stored in the first line of a configuration file with the following format: file = < binary filename >
 * **pdmm_library**
